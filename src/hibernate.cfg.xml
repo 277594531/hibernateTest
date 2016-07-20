@@ -6,6 +6,8 @@
     <session-factory>
         <property name="connection.url">jdbc:mysql://192.168.3.66:3306/test0</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">admin</property>
+        <property name="connection.password">123456</property>
         <mapping class="com.test.Table0Entity"/>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
